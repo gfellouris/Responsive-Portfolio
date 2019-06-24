@@ -10,14 +10,16 @@ body {
   box-sizing: border-box;
 }
 
-@media screen and (max-width:768px) {
-  body {
-    background-color: red;
-    background: red;
-    color: red;
-  }
-
+@media screen and (max-width:980px) {
 }
+
+@media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:640px) {
+}
+
+
 /* general */
 
 .container {
