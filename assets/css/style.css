@@ -54,8 +54,30 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+  nav {
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+  }
+
   section.main-section {
-    max-width: 100px;
+    max-width: auto;
+    margin: 50px 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  a#logo {
+    width: 100%;
+    max-width: auto;
+  }
+
+  img.auth-image {
+    float: none;
+    width: 500px;
+    height: auto;
+    font-size: 24px;
+    margin: auto;
   }
 }
 
