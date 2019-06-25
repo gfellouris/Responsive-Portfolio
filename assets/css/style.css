@@ -10,15 +10,25 @@ body {
   box-sizing: border-box;
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width: 980px) {
+  section.main-section {
+    max-width: 650px;
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
+  .main-section {
+    max-width: 200px;
+  }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
+  .main-section {
+    max-width: 100px;
+  }
 }
-
 
 /* general */
 
@@ -120,7 +130,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -197,15 +208,15 @@ h3, h2 {
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -217,7 +228,7 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
   color: #ffffff;
